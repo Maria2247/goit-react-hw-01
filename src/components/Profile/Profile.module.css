@@ -1,0 +1,73 @@
+.container {
+    width: 450px;
+    padding: 20px 0 0;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image {
+    border-radius: 50%;
+    width: 180px;
+    background-color: #545454;
+    margin: 0 auto;
+}
+
+.text {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: grey;
+}
+
+.nameText {
+    composes: text;
+    font-weight: 800;
+    font-size: 32px;
+    color: black;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: rgb(213, 205, 205);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top: 1px solid rgb(98, 96, 96);
+}
+
+.listItem {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-right: 10px;
+    padding: 20px 0px;
+    /* padding-left: 15px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+   width: 143px;
+   border-right: 1px solid rgb(98, 96, 96);
+
+}
+
+.listItem:last-child {
+border-right: none;
+}
+
+/* .listItem:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: -10px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: rgb(98, 96, 96);
+} */
+.statsNum {
+    font-weight: 700;
+}

@@ -1,0 +1,22 @@
+.image {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.name {
+    margin-bottom: 10px;
+    font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 24px;
+}
+
+.status {
+    composes: name;
+    font-size: 16px;
+}
+.isOnline {
+    color: green;
+}
+
+.isOffline {
+    color: red;
+}
